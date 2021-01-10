@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src=" https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+</head>
+<body>
+    <section>
+        <p>Создать страницу, которая выводит нумерованный список песен:<br>
+            список песен которые нужно вывести - <a href="http://prntscr.com/wkfd3b" target="_blank">тут</a>
+        </p>
+         <button onclick="list()">показать список песен</button>
+         <p id='list-song'></p>
+    </section>
+    <section>
+        <p>Создать HTML-страницу с кнопкой "Открыть" и модальным окном. На модальном окне должен быть текст и кнопка "Закрыть". 
+            Изначально модальное окно не отображается. При клике на кнопку "Открыть" появляется 
+            модальное окно, на кнопку "Закрыть" – исчезает.</p>
+            <button id="myBtn1">Открыть</button>
+                <div id="myModal1" class="modal1">
+                    <div class="modal-content">
+                        <span class="close1">&times;</span>
+                        <img src="gif/gomi.gif" class="mobile-logo">
+                    </div>
+                </div>
+
+    </section>
+    <section>
+        <p>Создать HTML-страницу со светофором и кнопкой, которая переключает светофор на следующий цвет.</p>
+        <center>
+            <div class="wrapper">
+                <div class="circle" onclick="red()" id="red">
+                </div>
+                <div class="circle" onclick="yellow()" id="yellow">
+                </div>
+                <div class="circle" onclick="green()" id="green">
+                </div>
+            </div>
+        </center>
+    </section>
+    <script src="js/main.js"></script>
+    <script src="js/popup.js"></script>
+</body>
+</html>
